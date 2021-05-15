@@ -1,6 +1,8 @@
 # methods
 
-Define the higher order functions, show how they can be used in a problem, what's going on under the hood, and its time-space-complexity.
+(I named this wrong because I got confused by another assignment but I'm working on the name change)
+
+Define the methods, show how they can be used in a problem, what's going on under the hood, and its time-space-complexity.
 
 ### .map()
 
