@@ -1,7 +1,14 @@
-// Given an array add all of the elements in the array and return the sum
+let arr = [4, 5, 6]
 
-let addition = function(array){
-    return array.reduce((a, b) => a +b, 0);
-}
+arr.unshift(1, 2, 3)
+console.log(arr);
+// [1, 2, 3, 4, 5, 6]
 
-console.log(addition([1, 2, 3, 4, 5]));
+arr = [4, 5, 6] // resetting the array
+
+arr.unshift(1)
+arr.unshift(2)
+arr.unshift(3)
+
+console.log(arr)
+// [3, 2, 1, 4, 5, 6]
