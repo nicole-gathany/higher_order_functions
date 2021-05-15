@@ -34,11 +34,15 @@ Define the higher order functions, show how they can be used in a problem, what'
 
 ### .shift()
 
+- Removes first item of an array
+
 ### .push()
 
 - pushes new item at the end of an array
 
 ### .unshift()
+
+- adds an item to the beginning of the array
 
 ### .includes()
 
