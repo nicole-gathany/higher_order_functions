@@ -1,7 +1,12 @@
-// Given an array add all of the elements in the array and return the sum
+var myFish = ['angel', 'clown', 'mandarin', 'surgeon'];
 
-let addition = function(array){
-    return array.reduce((a, b) => a +b, 0);
-}
+console.log('myFish before:', JSON.stringify(myFish));
+// myFish before: ['angel', 'clown', 'mandarin', 'surgeon']
 
-console.log(addition([1, 2, 3, 4, 5]));
+var shifted = myFish.shift();
+
+console.log('myFish after:', myFish);
+// myFish after: ['clown', 'mandarin', 'surgeon']
+
+console.log('Removed this element:', shifted);
+// Removed this element: angel
